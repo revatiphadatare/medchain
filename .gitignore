@@ -1,0 +1,9 @@
+﻿node_modules/
+.env
+.env.local
+.env.production
+backend/.env
+frontend/.env.production
+frontend/build/
+.DS_Store
+Thumbs.db

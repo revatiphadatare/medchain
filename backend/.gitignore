@@ -1,0 +1,19 @@
+# Dependencies — auto-installed
+node_modules/
+
+# Environment files — contain secrets
+.env
+.env.local
+.env.production
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+frontend/.env.production
+
+# Build output — auto-generated
+frontend/build/
+
+# OS files
+.DS_Store
+Thumbs.db
