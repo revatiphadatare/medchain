@@ -17,6 +17,7 @@ app.use(compression());
 app.use(cors({
   origin: [
     'http://localhost:3000',
+     "https://medchain-b2b.web.app",
     process.env.FRONTEND_URL,
   ],
   credentials: true,

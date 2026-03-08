@@ -1,0 +1,4 @@
+/*    /index.html    200
+
+# This single line tells Firebase to always serve index.html
+# for any URL — allowing React Router to handle routing
