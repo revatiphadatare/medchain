@@ -1,5 +1,4 @@
 const express       = require('express');
-app.set('trust proxy', 1);  
 const cors          = require('cors');
 const dotenv        = require('dotenv');
 const helmet        = require('helmet');
@@ -12,6 +11,7 @@ const connectDB     = require('./config/db');
 dotenv.config();
 connectDB();
 const app = express();
+app.set('trust proxy', 1);  
 
 app.use(helmet());
 app.use(compression());
