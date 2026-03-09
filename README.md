@@ -64,4 +64,4 @@ medchain/
 
 ---
 
-*Built with ❤️ using MERN Stack · MedChain B2B Platform*
+*Built using MERN Stack · MedChain B2B Platform*
